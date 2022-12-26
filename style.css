@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #ff992e;
+
+  --Dark-1: #1d1610;
+  --white: #fff;
+}
+body {
+  font-family: rubik, sofia;
+  background-color: var(--primary-shade);
+}
+
+nav {
+  padding: 1rem 5rem;
+  text-align: center;
+}
+
+.nav-ul {
+  list-style-type: none;
+}
+.nav-ul > li {
+  padding: 1rem;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 32px;
+  color: var(--Dark-1);
+  font-weight: 800;
+}
+.logo-icon {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.nav-button {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 10px;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding: 1rem;
+}
+.input-container {
+  border: 1px solid gainsboro;
+
+  padding: 1rem;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.bg-orange {
+  background-image: linear-gradient(#ff8008, #ff3737);
+}
+.input-element {
+  width: 100%;
+  color: grey;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
+}
+.hero-img-container {
+  width: 700px;
+}
+.date-input {
+  width: 50%;
+  color: grey;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
+}
+.btn-without-border {
+  border: none;
+  padding: 10px;
+  margin: 20px 0px;
+}
+.img-section {
+  width: 100%;
+  height: 50vh;
+  background-image: url(./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash\ 1.png),
+    url(./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash\ 2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: right, left;
+}
+.background-black {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  width: 100%;
+  height: 100%;
+}
+.top-element {
+  top: 0%;
+  color: yellow;
+}
