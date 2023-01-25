@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="style.css" />
+
     <link
       href="https://fonts.googleapis.com/css?family=Rubik"
       rel="stylesheet"
@@ -93,10 +94,15 @@
       <div class="flex flex-column align-center">
         <p class="mb-0">plan your trip now</p>
         <h3>Quick and easy rental</h3>
-        <div class="grid gap">
+        <div class="grid rental-component">
           <div class="flex flex-column align-center">
             <div class="flex">
-              <span class="circle bg-orange"></span>
+              <span class="circle bg-orange"
+                ><img
+                  class="img-circle"
+                  src="./images/location-tick.png"
+                  alt=""
+              /></span>
             </div>
             <h3>Search location</h3>
             <p>
@@ -104,16 +110,27 @@
               accusantium.
             </p>
           </div>
+          <div class="dotted-line"></div>
           <div class="flex flex-column align-center">
-            <span class="circle bg-orange"></span>
+            <span class="circle bg-blue"
+              ><img class="img-circle" src="./images/calendar.png" alt=""
+            /></span>
             <h3>Search location</h3>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium.
             </p>
           </div>
+          <div class="dotted-line"></div>
           <div class="flex flex-column align-center">
-            <span class="circle bg-orange"></span>
+            <span class="border-dotted"
+              ><span class="circle bg-purple"
+                ><img
+                  class="img-circle"
+                  src="./images/driving.png"
+                  alt="" /></span
+            ></span>
+
             <h3>Search location</h3>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -125,38 +142,38 @@
       </div>
     </section>
 
-    <section class="m-5">
+    <section class="p-5 bgcolor-grey">
       <div class="flex flex-column align-center">
-        <h3>our available cars</h3>
+        <h3>Our Available Cars</h3>
         <p style="width: 50%; text-align: center">
           Dolore magna aliqua enim ad minim veniam, quis nostrud exercitation
           aliquip duis aute irure dolorin reprehenderits vol dolore fugiat nulla
           pariatur excepteur sint occaecat cupidatat.
         </p>
-        <div class="flex gap align-center wrap">
-          <div class="flex flex-column">
-            <img src="./images/Rectangle 3365.png" alt="" />
+        <div class="grid template-column-25 gap align-center wrap">
+          <div class="flex basis-20 flex-column">
+            <img src="./images/car1.png" alt="" />
             <div class="flex space-between">
               <p>Audi RS4 Avant</p>
-              <p style="color: yellow">$45</p>
+              <p style="color: #ff992e">$45</p>
             </div>
             <div class="flex gap-2">
               <div class="flex p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">2000</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Petrol</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Manual</span></span
                 >
               </div>
             </div>
@@ -164,28 +181,28 @@
 
           <div>
             <div class="flex flex-column">
-              <img src="./images/Rectangle 3365.png" alt="" />
+              <img src="./images/car2.png" alt="" />
               <div class="flex space-between">
-                <p>Audi RS4 Avant</p>
-                <p style="color: yellow">$45</p>
+                <p>Ace of Spades</p>
+                <p style="color: #ff992e">$4445</p>
               </div>
               <div class="flex gap-2">
                 <div class="flex p-1">
                   <span class="">
-                    <img src="./images/Group 40127.png" alt="" />
-                    <span style="display: block">200</span></span
+                    <img src="./images/speed.png" alt="" />
+                    <span style="display: block">31500</span></span
                   >
                 </div>
                 <div class="p-1">
                   <span class="">
-                    <img src="./images/Group 40127.png" alt="" />
-                    <span style="display: block">200</span></span
+                    <img src="./images/fuel.png" alt="" />
+                    <span style="display: block">Diesel</span></span
                   >
                 </div>
                 <div class="p-1">
                   <span class="">
-                    <img src="./images/Group 40127.png" alt="" />
-                    <span style="display: block">200</span></span
+                    <img src="./images/gear.png" alt="" />
+                    <span style="display: block">Automatic</span></span
                   >
                 </div>
               </div>
@@ -193,28 +210,28 @@
           </div>
           <div>
             <div class="flex flex-column">
-              <img src="./images/Rectangle 3365.png" alt="" />
+              <img src="./images/car3.png" alt="" />
               <div class="flex space-between">
-                <p>Audi RS4 Avant</p>
-                <p style="color: yellow">$45</p>
+                <p>Red Diamond</p>
+                <p style="color: #ff992e">$2545</p>
               </div>
               <div class="flex gap-2">
                 <div class="flex p-1">
                   <span class="">
-                    <img src="./images/Group 40127.png" alt="" />
-                    <span style="display: block">200</span></span
+                    <img src="./images/speed.png" alt="" />
+                    <span style="display: block">20000</span></span
                   >
                 </div>
                 <div class="p-1">
                   <span class="">
-                    <img src="./images/Group 40127.png" alt="" />
-                    <span style="display: block">200</span></span
+                    <img src="./images/fuel.png" alt="" />
+                    <span style="display: block">Electric</span></span
                   >
                 </div>
                 <div class="p-1">
                   <span class="">
-                    <img src="./images/Group 40127.png" alt="" />
-                    <span style="display: block">200</span></span
+                    <img src="./images/gear.png" alt="" />
+                    <span style="display: block">Manual</span></span
                   >
                 </div>
               </div>
@@ -222,245 +239,137 @@
           </div>
           <div>
             <div class="flex flex-column">
-              <img src="./images/Rectangle 3365.png" alt="" />
+              <img src="./images/car4.png" alt="" />
               <div class="flex space-between">
-                <p>Audi RS4 Avant</p>
-                <p style="color: yellow">$45</p>
+                <p>Honda e</p>
+                <p style="color: #ff992e">$1145</p>
               </div>
               <div class="flex gap-2">
                 <div class="flex p-1">
                   <span class="">
-                    <img src="./images/Group 40127.png" alt="" />
-                    <span style="display: block">200</span></span
+                    <img src="./images/speed.png" alt="" />
+                    <span style="display: block">2000</span></span
                   >
                 </div>
                 <div class="p-1">
                   <span class="">
-                    <img src="./images/Group 40127.png" alt="" />
-                    <span style="display: block">200</span></span
+                    <img src="./images/fuel.png" alt="" />
+                    <span style="display: block">Hybrid</span></span
                   >
                 </div>
                 <div class="p-1">
                   <span class="">
-                    <img src="./images/Group 40127.png" alt="" />
-                    <span style="display: block">200</span></span
+                    <img src="./images/gear.png" alt="" />
+                    <span style="display: block">Manual</span></span
                   >
                 </div>
               </div>
             </div>
           </div>
           <div class="flex flex-column">
-            <img src="./images/Rectangle 3365.png" alt="" />
+            <img src="./images/car5.png" alt="" />
             <div class="flex space-between">
-              <p>Audi RS4 Avant</p>
-              <p style="color: yellow">$45</p>
+              <p>2022 Camry</p>
+              <p style="color: #ff992e">$1145</p>
             </div>
             <div class="flex gap-2">
               <div class="flex p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">2000</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Petrol</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Manual</span></span
                 >
               </div>
             </div>
           </div>
           <div class="flex flex-column">
-            <img src="./images/Rectangle 3365.png" alt="" />
+            <img src="./images/car6.png" alt="" />
             <div class="flex space-between">
-              <p>Audi RS4 Avant</p>
-              <p style="color: yellow">$45</p>
+              <p>Corolla Hatchback</p>
+              <p style="color: #ff992e">$8445</p>
             </div>
             <div class="flex gap-2">
               <div class="flex p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">31500</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Electric</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Automatic</span></span
                 >
               </div>
             </div>
           </div>
           <div class="flex flex-column">
-            <img src="./images/Rectangle 3365.png" alt="" />
+            <img src="./images/car7.png" alt="" />
             <div class="flex space-between">
-              <p>Audi RS4 Avant</p>
-              <p style="color: yellow">$45</p>
+              <p>2022 Corolla</p>
+              <p style="color: #ff992e">$69545</p>
             </div>
             <div class="flex gap-2">
               <div class="flex p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">20000</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Electric</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Manual</span></span
                 >
               </div>
             </div>
           </div>
           <div class="flex flex-column">
-            <img src="./images/Rectangle 3365.png" alt="" />
+            <img src="./images/car8.png" alt="" />
             <div class="flex space-between">
-              <p>Audi RS4 Avant</p>
-              <p style="color: yellow">$45</p>
+              <p>2022 GR Supra</p>
+              <p style="color: #ff992e">$41145</p>
             </div>
             <div class="flex gap-2">
               <div class="flex p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/speed.png" alt="" />
+                  <span style="display: block">2000</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/fuel.png" alt="" />
+                  <span style="display: block">Hybrid</span></span
                 >
               </div>
               <div class="p-1">
                 <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-column">
-            <img src="./images/Rectangle 3365.png" alt="" />
-            <div class="flex space-between">
-              <p>Audi RS4 Avant</p>
-              <p style="color: yellow">$45</p>
-            </div>
-            <div class="flex gap-2">
-              <div class="flex p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-              <div class="p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-              <div class="p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-column">
-            <img src="./images/Rectangle 3365.png" alt="" />
-            <div class="flex space-between">
-              <p>Audi RS4 Avant</p>
-              <p style="color: yellow">$45</p>
-            </div>
-            <div class="flex gap-2">
-              <div class="flex p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-              <div class="p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-              <div class="p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-column">
-            <img src="./images/Rectangle 3365.png" alt="" />
-            <div class="flex space-between">
-              <p>Audi RS4 Avant</p>
-              <p style="color: yellow">$45</p>
-            </div>
-            <div class="flex gap-2">
-              <div class="flex p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-              <div class="p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-              <div class="p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-column">
-            <img src="./images/Rectangle 3365.png" alt="" />
-            <div class="flex space-between">
-              <p>Audi RS4 Avant</p>
-              <p style="color: yellow">$45</p>
-            </div>
-            <div class="flex gap-2">
-              <div class="flex p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-              <div class="p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
-                >
-              </div>
-              <div class="p-1">
-                <span class="">
-                  <img src="./images/Group 40127.png" alt="" />
-                  <span style="display: block">200</span></span
+                  <img src="./images/gear.png" alt="" />
+                  <span style="display: block">Manual</span></span
                 >
               </div>
             </div>
@@ -471,8 +380,10 @@
     <section class="flex m-5">
       <img src="./images/Rectangle 3366.png" alt="" />
       <div class="p-2 relative">
-        <span class="absolute top-element">about company</span>
-        <h3>You start the engine and your adventure begins.</h3>
+        <span class="absolute top-element">About company</span>
+        <h3 class="heading-big">
+          You start the engine and your adventure begins.
+        </h3>
         <p>
           But I must explain to you how all this mistaken idea of denouncing
           pleasure and praising pain was born and I will give you a complete
@@ -481,12 +392,21 @@
           rejects, dislikes, or avoids pleasure itself, because it is pleasure.
         </p>
         <div style="padding: 2rem">
-          <div class="flex space-between align-center">
+          <div class="flex space-between align-center car-section">
+            <img class="mr-1" src="./images/car.png" alt="" />
             <h3>20 car types</h3>
-            <span style="font-size: 30px">></span>
+            <span class="margin-left-auto" style="font-size: 30px">></span>
           </div>
-          <h3>20 car types</h3>
-          <h3>20 car types</h3>
+          <div class="flex space-between align-center car-section">
+            <img class="mr-1" src="./images/buildings-2.png" alt="" />
+            <h3>100 Rental Outlets</h3>
+            <span class="margin-left-auto" style="font-size: 30px">></span>
+          </div>
+          <div class="flex align-center car-section">
+            <img class="mr-1" src="./images/shop.png" alt="" />
+            <h3 class="text-align">150 Repair Shops</h3>
+            <span class="margin-left-auto" style="font-size: 30px">></span>
+          </div>
         </div>
       </div>
     </section>
@@ -505,9 +425,11 @@
     </section>
     <section>
       <div class="flex m-5 p-2 gag-2">
-        <div class="p-3">
-          <h3>What's Our Customer Say</h3>
+        <div class="p-2">
+          <h4 class="test-heading">-Testimonials</h4>
+          <h3 class="heading-big">What's Our Customer Say</h3>
           <p>
+            <span class="punctatuation">❜❜</span>
             Design is a way of life, a point of view. It involves the whole
             complex of visual communications: talent, creative ability, manual
             skill, and technical knowledge.
@@ -515,37 +437,36 @@
           <h5>Ralph Edwards</h5>
           <p>Product Designer</p>
         </div>
-        <img src="./images/Group 1000002632.png" alt="" />
+        <img src="./images/Group-1000002632.png" alt="" />
       </div>
     </section>
-    <section class="flex p-5">
-      <div class="flex flex-column">
-        <h3>Download our app to get most out of it</h3>
+    <section class="download-section flex bgcolor-grey">
+      <div class="download-text flex flex-column">
+        <h3 class="heading-big">Download our app to get most out of it</h3>
         <p>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae .
         </p>
-        <div>
-          <img src="./images/google-app-download 1.png" alt="" />
-          <img src="./images/ios-app-btn.png" alt="" />
+        <div class="mt">
+          <img class="mr-1" src="./images/google-app-download 1.png" alt="" />
+          <img class="mr-1" src="./images/ios-app-btn.png" alt="" />
         </div>
       </div>
-
-      <img src="./images/Group 1000002662.png" alt="" />
     </section>
     <section class="flex space-between align-center p-5">
       <div>
         <h4 class="mb-0">Join our newsletter</h4>
-        <p class="mt-0">Get the latest news and update</p>
+        <p class="mt-1">Get the latest news and update</p>
       </div>
+
       <input
         style="width: 50%; height: 40px; border: none"
-        class="p-0"
+        class="p-0 input-email"
         type="text"
-        placeholder="email address"
+        placeholder="Enter address"
       />
-      <button class="nav-button btn-without-border mb-1">sign up</button>
+      <button class="email-button btn-without-border mb-1">SIGN UP</button>
     </section>
     <footer class="flex gap m-5">
       <div style="width: 30%">
@@ -577,10 +498,18 @@
         <ul class="nav-ul">
           <li>follow us</li>
           <li>
-            <img src="./images/Group 40127.png" alt="" />
-            <img src="./images/Group 40127.png" alt="" />
-            <img src="./images/Group 40127.png" alt="" />
-            <img src="./images/Group 40127.png" alt="" />
+            <img class="social-img" src="./images/facebook-logo 1.png" alt="" />
+            <img
+              class="social-img"
+              src="./images/instagram-logo 1.png"
+              alt=""
+            />
+            <img class="social-img" src="./images/linkedin-logo 1.png" alt="" />
+            <img
+              class="social-img"
+              src="./images/pinterest-logo 1.png"
+              alt=""
+            />
           </li>
         </ul>
       </div>
